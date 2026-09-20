@@ -1,0 +1,760 @@
+{
+  "companies": [
+    {
+      "id": "comp_suryavanshi_01",
+      "name": "Suryavanshi Industrial Solutions Pvt Ltd",
+      "legalName": "Suryavanshi Industrial Solutions Private Limited",
+      "tradeName": "Suryavanshi Tech & Spares",
+      "pan": "AABCS1429B",
+      "gstin": "27AABCS1429B1Z8",
+      "tan": "PNEA02394F",
+      "cin": "U72200PN2021PTC199824",
+      "address": "Plot 42, Hinjawadi Phase 2, IT Park",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "stateCode": "27",
+      "pincode": "411057",
+      "financialYear": "2024-2025",
+      "booksStartDate": "2024-04-01",
+      "baseCurrency": "INR",
+      "accountingSoftware": "Tally",
+      "createdAt": "2026-09-20T08:22:29.020Z",
+      "updatedAt": "2026-09-20T08:22:29.020Z"
+    }
+  ],
+  "ledgers": [
+    {
+      "id": "led_cred_01",
+      "companyId": "comp_suryavanshi_01",
+      "name": "ABC Tech Consultants LLP",
+      "parentGroup": "Sundry Creditors",
+      "ledgerType": "Vendor",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstin": "27AAHFA8821R1ZG",
+      "pan": "AAHFA8821R",
+      "state": "Maharashtra",
+      "tdsApplicability": true,
+      "tdsSection": "194J",
+      "active": true
+    },
+    {
+      "id": "led_cred_02",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Apex Cloud & Infrastructure Services",
+      "parentGroup": "Sundry Creditors",
+      "ledgerType": "Vendor",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstin": "29AABCA9901C1ZH",
+      "pan": "AABCA9901C",
+      "state": "Karnataka",
+      "tdsApplicability": true,
+      "tdsSection": "194J",
+      "active": true
+    },
+    {
+      "id": "led_cred_03",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Mahalaxmi Properties & Commercial Estates",
+      "parentGroup": "Sundry Creditors",
+      "ledgerType": "Vendor",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstin": "27AAECM4432K1Z9",
+      "pan": "AAECM4432K",
+      "state": "Maharashtra",
+      "tdsApplicability": true,
+      "tdsSection": "194I",
+      "active": true
+    },
+    {
+      "id": "led_cred_04",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Speedex Logistics & Freight Movers",
+      "parentGroup": "Sundry Creditors",
+      "ledgerType": "Vendor",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstin": "27AAMCS1234D1ZF",
+      "pan": "AAMCS1234D",
+      "state": "Maharashtra",
+      "tdsApplicability": true,
+      "tdsSection": "194C",
+      "active": true
+    },
+    {
+      "id": "led_exp_prof",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Professional & Legal Fees",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194J",
+      "defaultTaxTreatment": "18% GST",
+      "active": true
+    },
+    {
+      "id": "led_exp_rent",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Office Rent & Workspace Lease",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194I",
+      "defaultTaxTreatment": "18% GST",
+      "active": true
+    },
+    {
+      "id": "led_exp_software",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Software, Cloud & SaaS Subscriptions",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194J",
+      "defaultTaxTreatment": "18% GST",
+      "active": true
+    },
+    {
+      "id": "led_exp_contractor",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Contractor & Maintenance Charges",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194C",
+      "defaultTaxTreatment": "18% GST",
+      "active": true
+    },
+    {
+      "id": "led_exp_travel",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Travel, Lodging & Conveyance",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_exp_electricity",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Electricity & Power Utility",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": false,
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_exp_advert",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Advertising & Digital Marketing",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194C",
+      "active": true
+    },
+    {
+      "id": "led_exp_purchases",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Raw Material & Component Purchases",
+      "parentGroup": "Purchase Accounts",
+      "ledgerType": "Expense",
+      "nature": "Expense",
+      "gstApplicability": true,
+      "tdsApplicability": true,
+      "tdsSection": "194Q",
+      "active": true
+    },
+    {
+      "id": "led_tax_cgst_in",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Input CGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Asset",
+      "gstApplicability": true,
+      "gstType": "CGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_sgst_in",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Input SGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Asset",
+      "gstApplicability": true,
+      "gstType": "SGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_igst_in",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Input IGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Asset",
+      "gstApplicability": true,
+      "gstType": "IGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_cgst_out",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Output CGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstType": "CGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_sgst_out",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Output SGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstType": "SGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_igst_out",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Output IGST",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": true,
+      "gstType": "IGST",
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_tax_tds_194j",
+      "companyId": "comp_suryavanshi_01",
+      "name": "TDS Payable - Sec 194J (Professional / Tech)",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": false,
+      "tdsApplicability": true,
+      "tdsSection": "194J",
+      "active": true
+    },
+    {
+      "id": "led_tax_tds_194c",
+      "companyId": "comp_suryavanshi_01",
+      "name": "TDS Payable - Sec 194C (Contractors)",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": false,
+      "tdsApplicability": true,
+      "tdsSection": "194C",
+      "active": true
+    },
+    {
+      "id": "led_tax_tds_194i",
+      "companyId": "comp_suryavanshi_01",
+      "name": "TDS Payable - Sec 194I (Rent)",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": false,
+      "tdsApplicability": true,
+      "tdsSection": "194I",
+      "active": true
+    },
+    {
+      "id": "led_tax_tds_194q",
+      "companyId": "comp_suryavanshi_01",
+      "name": "TDS Payable - Sec 194Q (Purchase of Goods)",
+      "parentGroup": "Duties & Taxes",
+      "ledgerType": "Tax",
+      "nature": "Liability",
+      "gstApplicability": false,
+      "tdsApplicability": true,
+      "tdsSection": "194Q",
+      "active": true
+    },
+    {
+      "id": "led_round_off",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Round Off",
+      "parentGroup": "Indirect Expenses",
+      "ledgerType": "General",
+      "nature": "Expense",
+      "gstApplicability": false,
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_bank_hdfc",
+      "companyId": "comp_suryavanshi_01",
+      "name": "HDFC Bank Current A/c - 50200049281",
+      "parentGroup": "Bank Accounts",
+      "ledgerType": "Bank",
+      "nature": "Asset",
+      "gstApplicability": false,
+      "tdsApplicability": false,
+      "active": true
+    },
+    {
+      "id": "led_bank_icici",
+      "companyId": "comp_suryavanshi_01",
+      "name": "ICICI Bank Current A/c - 00470501239",
+      "parentGroup": "Bank Accounts",
+      "ledgerType": "Bank",
+      "nature": "Asset",
+      "gstApplicability": false,
+      "tdsApplicability": false,
+      "active": true
+    }
+  ],
+  "inventory": [
+    {
+      "id": "inv_item_01",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Precision Stepper Motor 24V NEMA 23",
+      "sku": "MOT-NEMA23-24V",
+      "hsn": "8501",
+      "unit": "NOS",
+      "stockGroup": "Motors & Actuators",
+      "gstRate": 18,
+      "purchaseRate": 2450,
+      "salesRate": 3600,
+      "openingQuantity": 100,
+      "openingValue": 245000,
+      "currentStock": 82,
+      "active": true
+    },
+    {
+      "id": "inv_item_02",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Microcontroller Controller Board V3.2",
+      "sku": "PCB-CTRL-V32",
+      "hsn": "8537",
+      "unit": "NOS",
+      "stockGroup": "Electronics",
+      "gstRate": 18,
+      "purchaseRate": 1150,
+      "salesRate": 1850,
+      "openingQuantity": 250,
+      "openingValue": 287500,
+      "currentStock": 195,
+      "active": true
+    },
+    {
+      "id": "inv_item_03",
+      "companyId": "comp_suryavanshi_01",
+      "name": "Industrial Linear Optical Sensor",
+      "sku": "SNS-LIN-OPT-01",
+      "hsn": "9031",
+      "unit": "NOS",
+      "stockGroup": "Sensors",
+      "gstRate": 18,
+      "purchaseRate": 3200,
+      "salesRate": 4800,
+      "openingQuantity": 40,
+      "openingValue": 128000,
+      "currentStock": 35,
+      "active": true
+    }
+  ],
+  "documents": [
+    {
+      "companyId": "comp_suryavanshi_01",
+      "documentType": "Expense bill",
+      "fileName": "Test_Consulting_Invoice.pdf",
+      "fileSize": 1024,
+      "mimeType": "application/pdf",
+      "fileHash": "317cedd9bcaa5e98ec07d230513bcdaf60ed71697b67bc6da13d00f3376118c7",
+      "uploadDateTime": "2026-09-20T08:22:57.606Z",
+      "supplierName": "ABC Tech Consultants LLP",
+      "supplierGstin": "27AAHFA8821R1ZG",
+      "invoiceNumber": "INV-2024-8841",
+      "invoiceDate": "2026-09-20",
+      "dueDate": "2026-10-20",
+      "currency": "INR",
+      "taxableAmount": 65000,
+      "gstAmount": 11700,
+      "tdsAmount": 0,
+      "netPayable": 76700,
+      "grossAmount": 76700,
+      "status": "APPROVED",
+      "extraction": {
+        "supplier": {
+          "name": {
+            "value": "ABC Tech Consultants LLP",
+            "confidence": 0.94
+          },
+          "gstin": {
+            "value": "27AAHFA8821R1ZG",
+            "confidence": 0.98
+          },
+          "pan": {
+            "value": "AAHFA8821R",
+            "confidence": 0.96
+          },
+          "address": {
+            "value": "402, Trade Tower, Senapati Bapat Marg, Mumbai",
+            "confidence": 0.91
+          },
+          "state": {
+            "value": "Maharashtra",
+            "confidence": 0.98
+          },
+          "stateCode": {
+            "value": "27",
+            "confidence": 0.98
+          }
+        },
+        "invoice": {
+          "invoiceNumber": {
+            "value": "INV-2024-8841",
+            "confidence": 0.97
+          },
+          "invoiceDate": {
+            "value": "2026-09-20",
+            "confidence": 0.95
+          },
+          "dueDate": {
+            "value": "2026-10-20",
+            "confidence": 0.9
+          },
+          "placeOfSupply": {
+            "value": "Maharashtra (27)",
+            "confidence": 0.96
+          }
+        },
+        "lineItems": [
+          {
+            "id": "item_1",
+            "description": {
+              "value": "ERP Architecture & Cloud Security Advisory",
+              "confidence": 0.94
+            },
+            "hsnSac": {
+              "value": "998313",
+              "confidence": 0.95
+            },
+            "quantity": {
+              "value": 1,
+              "confidence": 0.99
+            },
+            "unit": {
+              "value": "MONTH",
+              "confidence": 0.95
+            },
+            "rate": {
+              "value": 65000,
+              "confidence": 0.97
+            },
+            "discount": {
+              "value": 0,
+              "confidence": 0.99
+            },
+            "taxableValue": {
+              "value": 65000,
+              "confidence": 0.97
+            },
+            "gstRate": {
+              "value": 18,
+              "confidence": 0.98
+            },
+            "cgst": {
+              "value": 5850,
+              "confidence": 0.98
+            },
+            "sgst": {
+              "value": 5850,
+              "confidence": 0.98
+            },
+            "igst": {
+              "value": 0,
+              "confidence": 0.98
+            }
+          }
+        ],
+        "totals": {
+          "subtotal": {
+            "value": 65000,
+            "confidence": 0.97
+          },
+          "tax": {
+            "value": 11700,
+            "confidence": 0.97
+          },
+          "tdsIfShown": {
+            "value": 0,
+            "confidence": 0.85
+          },
+          "roundOff": {
+            "value": 0,
+            "confidence": 0.99
+          },
+          "grandTotal": {
+            "value": 76700,
+            "confidence": 0.98
+          }
+        },
+        "aiNotes": [
+          "Detected Maharashtra GSTIN (27) - Intra-state supply (CGST + SGST 18%)",
+          "Professional Service (SAC 998313) - TDS u/s 194J applicable (>₹30,000 threshold)"
+        ],
+        "extractionTimestamp": "2026-09-20T08:22:57.606Z"
+      },
+      "id": "doc_92e9b307",
+      "createdAt": "2026-09-20T08:22:57.606Z",
+      "updatedAt": "2026-09-20T08:23:01.048Z",
+      "voucherId": "vch_8ff13db2"
+    }
+  ],
+  "vouchers": [
+    {
+      "companyId": "comp_suryavanshi_01",
+      "sourceDocumentId": "doc_92e9b307",
+      "voucherType": "Purchase",
+      "voucherDate": "2026-09-20",
+      "referenceNumber": "INV-2024-8841",
+      "narration": "Being purchase from ABC Tech Consultants LLP vide invoice #INV-2024-8841 dated 2026-09-20. GST: CGST_SGST, TDS: 194J.",
+      "lines": [
+        {
+          "id": "line_ac3cbd9b",
+          "ledgerId": "led_exp_prof",
+          "ledgerName": "Professional & Legal Fees",
+          "ledgerNature": "Expense",
+          "debit": 65000,
+          "credit": 0,
+          "narration": "Taxable invoice value for ABC Tech Consultants LLP [Inv: INV-2024-8841]",
+          "lineType": "EXPENSE"
+        },
+        {
+          "id": "line_e6289298",
+          "ledgerId": "led_tax_cgst_in",
+          "ledgerName": "Input CGST",
+          "ledgerNature": "Asset",
+          "debit": 5850,
+          "credit": 0,
+          "narration": "Input CGST @ 9% (Intra-state Maharashtra)",
+          "lineType": "TAX_GST"
+        },
+        {
+          "id": "line_dc048bd9",
+          "ledgerId": "led_tax_sgst_in",
+          "ledgerName": "Input SGST",
+          "ledgerNature": "Asset",
+          "debit": 5850,
+          "credit": 0,
+          "narration": "Input SGST @ 9% (Intra-state Maharashtra)",
+          "lineType": "TAX_GST"
+        },
+        {
+          "id": "line_8cc2fa2e",
+          "ledgerId": "led_tax_tds_194j",
+          "ledgerName": "TDS Payable - Sec 194J (Professional / Tech)",
+          "ledgerNature": "Liability",
+          "debit": 0,
+          "credit": 1300,
+          "narration": "TDS withheld u/s 194J @ 2% on ₹65000",
+          "lineType": "TAX_TDS"
+        },
+        {
+          "id": "line_5a657cb1",
+          "ledgerId": "led_cred_01",
+          "ledgerName": "ABC Tech Consultants LLP",
+          "ledgerNature": "Liability",
+          "debit": 0,
+          "credit": 75400,
+          "narration": "Net payable to ABC Tech Consultants LLP against Inv #INV-2024-8841 dated 2026-09-20",
+          "lineType": "PARTY"
+        }
+      ],
+      "totalDebit": 76700,
+      "totalCredit": 76700,
+      "isBalanced": true,
+      "aiConfidence": {
+        "vendorIdentification": 0.99,
+        "ledgerClassification": 0.93,
+        "gstTreatment": 0.95,
+        "tdsClassification": 0.92,
+        "overall": 0.95
+      },
+      "gstAnalysis": {
+        "treatment": "CGST_SGST",
+        "gstRate": 18,
+        "taxableValue": 65000,
+        "cgstAmount": 5850,
+        "sgstAmount": 5850,
+        "igstAmount": 0,
+        "supplierGstin": "27AAHFA8821R1ZG",
+        "supplierState": "Maharashtra",
+        "companyState": "Maharashtra",
+        "placeOfSupply": "Maharashtra (27)",
+        "isInterState": false,
+        "isRcmApplicable": false,
+        "itcEligibility": "Eligible",
+        "confidence": 0.95,
+        "reason": "Intra-state supply: Both Supplier and Recipient are located in Maharashtra (27). Central GST (CGST) + State GST (SGST) applicable.. Input tax credit is eligible for ordinary course of business.",
+        "reviewRequired": false,
+        "hsnSacCodes": [
+          "998313"
+        ]
+      },
+      "tdsAnalysis": {
+        "isApplicable": true,
+        "sectionCode": "194J",
+        "sectionDescription": "Fees for Professional or Technical Services",
+        "thresholdAmount": 30000,
+        "applicableRate": 2,
+        "tdsAmount": 1300,
+        "baseAmount": 65000,
+        "panStatus": "Valid",
+        "vendorPan": "AAHFA8821R",
+        "confidence": 0.92,
+        "reason": "Recommended TDS deduction under Section 194J at 2% on taxable base ₹65,000.",
+        "insufficientInfo": false,
+        "missingFields": [],
+        "reviewRequired": false
+      },
+      "status": "EXPORTED_TALLY",
+      "createdBy": "AI Copilot Engine",
+      "id": "vch_8ff13db2",
+      "createdAt": "2026-09-20T08:22:57.615Z",
+      "updatedAt": "2026-09-20T08:23:04.929Z",
+      "approvedBy": "Senior Accountant",
+      "approvedAt": "2026-09-20T08:23:01.048Z",
+      "tallyExportedAt": "2026-09-20T08:23:04.929Z"
+    }
+  ],
+  "exceptions": [],
+  "auditLogs": [
+    {
+      "id": "log_init_01",
+      "companyId": "comp_suryavanshi_01",
+      "timestamp": "2026-09-20T08:22:29.020Z",
+      "user": "System Admin (Accountant)",
+      "action": "MASTER_CREATED",
+      "entity": "COMPANY",
+      "entityId": "comp_suryavanshi_01",
+      "newValue": "Initialized Company Chart of Accounts and GST/TDS tax engines"
+    },
+    {
+      "companyId": "comp_suryavanshi_01",
+      "user": "Accountant",
+      "action": "DOCUMENT_UPLOADED",
+      "entity": "DOCUMENT",
+      "entityId": "doc_92e9b307",
+      "newValue": "Uploaded Test_Consulting_Invoice.pdf (Hash: 317cedd9bc...)",
+      "id": "log_ec7dd16c",
+      "timestamp": "2026-09-20T08:22:57.607Z"
+    },
+    {
+      "companyId": "comp_suryavanshi_01",
+      "user": "AI Copilot Engine",
+      "action": "AI_EXTRACTED",
+      "entity": "DOCUMENT",
+      "entityId": "doc_92e9b307",
+      "newValue": "Extracted Inv #INV-2024-8841 from ABC Tech Consultants LLP (₹76700)",
+      "id": "log_15ae0042",
+      "timestamp": "2026-09-20T08:22:57.607Z"
+    },
+    {
+      "companyId": "comp_suryavanshi_01",
+      "user": "AI Copilot Engine",
+      "action": "VOUCHER_CREATED",
+      "entity": "VOUCHER",
+      "entityId": "vch_8ff13db2",
+      "newValue": "Proposed Purchase voucher #INV-2024-8841 totaling ₹76700",
+      "id": "log_c3a31ace",
+      "timestamp": "2026-09-20T08:22:57.616Z"
+    },
+    {
+      "companyId": "comp_suryavanshi_01",
+      "user": "Senior Accountant",
+      "action": "VOUCHER_APPROVED",
+      "entity": "VOUCHER",
+      "entityId": "vch_8ff13db2",
+      "newValue": "Approved Voucher #INV-2024-8841 (Purchase) for ₹76700",
+      "id": "log_814b933e",
+      "timestamp": "2026-09-20T08:23:01.049Z"
+    },
+    {
+      "companyId": "comp_suryavanshi_01",
+      "user": "Accountant",
+      "action": "TALLY_EXPORTED",
+      "entity": "VOUCHER",
+      "entityId": "BATCH_EXPORT",
+      "newValue": "Exported 1 approved vouchers in Tally XML Envelope format (Tally_Vouchers_27_1789892584929.xml)",
+      "id": "log_c1d911ad",
+      "timestamp": "2026-09-20T08:23:04.930Z"
+    }
+  ],
+  "mappings": [],
+  "bankAccounts": [
+    {
+      "id": "bank_acc_01",
+      "companyId": "comp_suryavanshi_01",
+      "bankName": "HDFC Bank",
+      "accountNumber": "50200049281190",
+      "ifscCode": "HDFC0000039",
+      "branch": "Hinjawadi, Pune",
+      "ledgerId": "led_bank_hdfc",
+      "currentBookBalance": 1450200.5
+    }
+  ],
+  "bankTransactions": [
+    {
+      "bankAccountId": "bank_acc_01",
+      "date": "2026-09-20",
+      "description": "NEFT-AXIS-ABC TECH CONSULTANTS-INV8841",
+      "referenceNumber": "CMS982310892",
+      "type": "DEBIT",
+      "amount": 70200,
+      "status": "Unmatched",
+      "id": "tx_1c96b8aa"
+    },
+    {
+      "bankAccountId": "bank_acc_01",
+      "date": "2026-09-20",
+      "description": "RTGS-APEX CLOUD SERVICES-BENGALURU",
+      "referenceNumber": "UTR2024092001",
+      "type": "DEBIT",
+      "amount": 48720,
+      "status": "Unmatched",
+      "id": "tx_381ed878"
+    }
+  ],
+  "settings": {
+    "confidenceThresholds": {
+      "suggested": 0.9,
+      "reviewRecommended": 0.7,
+      "manualReviewRequired": 0.5
+    },
+    "activeCompanyId": "comp_suryavanshi_01"
+  }
+}
